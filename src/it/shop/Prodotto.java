@@ -97,7 +97,7 @@ public class Prodotto {
 
 	// Metodo per stampare il prezzo con iva
 	public double stampaPrezzoConIva() {
-		double stampaPrezzoConIva = prezzo + prezzo * iva;
+		double stampaPrezzoConIva = prezzo + ((prezzo * iva) / 100);
 		return stampaPrezzoConIva;
 	}
 
