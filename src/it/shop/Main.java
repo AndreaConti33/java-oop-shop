@@ -7,7 +7,7 @@ public class Main {
 		System.out.println("Nuovo prodotto:");
 		Prodotto prodotto1 = new Prodotto();
 		
-		System.out.println("Nome esteso: "+ prodotto1.nomeEsteso() + "\nCodice prodotto: " + prodotto1.getCodice() + "\nNome del proddotto: " + prodotto1.getNome() + "\nDescrizione del prodotto: " + prodotto1.getDescrizione() + "\nPrezzo del prodotto senza IVA: " + prodotto1.getPrezzo() + " euro" + "\nPrezzo del prodottto con IVA: " + prodotto1.stampaPrezzoConIva() + " euro");
+		System.out.println("Nome esteso: "+ prodotto1.nomeEsteso() + "\nCodice prodotto: " + prodotto1.getCodice() + "\nNome del proddotto: " + prodotto1.getNome() + "\nDescrizione del prodotto: " + prodotto1.getDescrizione() + "\nPrezzo del prodotto senza IVA: " + prodotto1.getPrezzo() + " euro" + "\nPrezzo del prodotto con IVA: " + prodotto1.stampaPrezzoConIva() + " euro");
 
 //		// Costruttore di debug
 //		System.out.println("Nuovo prodotto (debug): ");
