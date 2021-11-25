@@ -11,14 +11,8 @@ public class Prodotto {
 	private int prezzo;
 	private double iva;
 
-	// Costruttore#1
-	public Prodotto() {
-		this.codice = generatoreDiCodici();
-
-	}
-
-	// CostruttoreDebug
-	public Prodotto(int codice, String nome, String descrizione, int prezzo, double iva) {
+	// Costruttore
+	public Prodotto(String nome, String descrizione, int prezzo, double iva) {
 		this.codice = generatoreDiCodici();
 		this.nome = nome;
 		this.descrizione = descrizione;
