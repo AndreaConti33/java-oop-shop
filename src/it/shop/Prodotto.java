@@ -17,7 +17,7 @@ public class Prodotto {
 
 	}
 
-	// Costruttore#2
+	// CostruttoreDebug
 	public Prodotto(int codice, String nome, String descrizione, int prezzo, double iva) {
 		this.codice = generatoreDiCodici();
 		this.nome = nome;
